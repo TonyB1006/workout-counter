@@ -1,0 +1,83 @@
+body {
+    align-content: center;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+}
+
+#main {
+    width: 300px;
+    padding: 15px;
+    margin: auto;
+    border: solid Sienna 2px;
+    border-radius: 10%;
+    text-align: center;
+    align-content: center;
+    background-image: url("background.jpg");  
+}
+#btn-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+h1 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#count-el {
+    font-size: 30px;
+}
+
+button {
+    font-size: 20px;
+    border: solid white 3px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    border-radius: 75px;
+}
+p {
+    font-size: 25px;
+}
+#save-el {
+    font-size: 20px; 
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+#add-btn {
+    background-color: DarkOrange;
+}
+
+#reset-btn {
+    background-color: red;
+}
+
+#save-btn {
+    background: green;
+}
+
+#clear-btn {
+    background: black;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+}
