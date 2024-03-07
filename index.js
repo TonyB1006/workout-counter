@@ -25,6 +25,7 @@ function save() {
 function removeData() {
     saveEl.innerHTML = "";
     saveEl.textContent = "Previous Sets:"
+    set = 0;
 }
 
 
